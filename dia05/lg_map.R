@@ -3,10 +3,10 @@ mapa_chr <- function(cr, col_cr = "grey", unidad = "cM") {
   plot(x = rango, # cuantas cromosomas
        y = cr, # longitud de cada uno
        ylim = range(0, max(cr)),
-       type = "h", # tipo histograma 
-       xaxt = "n", # no pintar lines de border x
+       type = "h", # tipo: histograma 
+       xaxt = "n", # no poner las etiquetas en x
        yaxt = "n", 
-       bty = "n", 
+       bty = "n", # sin caja
        col = "white",
        xlab = "Cromosomas",
        ylab = unidad
@@ -21,9 +21,13 @@ mapa_chr <- function(cr, col_cr = "grey", unidad = "cM") {
        labels = paste0("LG", rango),
        lty = 0
        )
-  segments(x0 = rango, y0 = abs(max(cr) - cr), x1 = rango, y1 = max(cr),
-           lwd = 10, col = col_cr)
-  
+  segments(x0 = rango, 
+           y0 = abs(max(cr) - cr), 
+           x1 = rango, 
+           y1 = max(cr),
+           lwd = 10, 
+           col = col_cr
+           )
 }
 
 a_th <- list(crm = c(30.4, 19.7, 23.5, 18.6, 27),

@@ -22,7 +22,6 @@ nlevels()
 
 
 # Ejemplo
-library(magrittr)
 
 exprmt <- factor(
             sample(
@@ -32,6 +31,7 @@ exprmt <- factor(
             )
           )
 
+library(magrittr)
 exprmt %>% table %>% barplot()
 
 # alternativa 1:

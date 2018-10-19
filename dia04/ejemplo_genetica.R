@@ -1,4 +1,5 @@
 # Siegmund, Yakir: Statistics of Gene Mapping, p28-
+#
 # y <- m + G + E
 #
 # y <- mu + alpha * (xm + xf) + delta * (x == 1) + eps
@@ -23,7 +24,8 @@ y
 h2 <- var(G) / var(y) 
 
 plot(density(y), 
-     main = paste("Un modelo recesivo: \n h^2 = ", round(h2, 3), sep = ""),
+     main = paste("Un modelo recesivo: \n h^2 = ", round(h2, 3)
+                  , sep = ""),
      col = "blue"
   )
 

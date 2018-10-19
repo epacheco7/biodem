@@ -1,2 +1,3 @@
-rbinom
-rnorm
+rbinom()
+rnorm()
+rpoisson()

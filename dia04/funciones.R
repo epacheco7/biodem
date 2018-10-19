@@ -1,5 +1,10 @@
-which
-var
-min
-max
-mean
+which()
+var()
+min()
+max()
+mean()
+summary()
+
+as.integer("1")
+as.character(1)
+as.factor("1")

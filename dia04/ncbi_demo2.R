@@ -11,11 +11,11 @@ entrez_db_searchable(db = "pubmed")
 r_search <- entrez_search(db = "pubmed", term = "Solanum & 2017[PDATE]")
 
 search_year <- function(year, term) {
-  query <- paste(term, " AND (", year, "[PDAT])", sep = "")
+  query <- paste0(term, " AND (", year, "[PDAT])")
   entrez_search(db = "pubmed", term = query, retmax = 0)$count
 }
 
-year <- 2000:2018
+year <- 1995:2018
 papers <- sapply(year, search_year, term = "Chenopodium quinoa", USE.NAMES = FALSE)
 
 plot(year, papers, type = "b", main = "Publicaciones anuales sobre la quinoa",

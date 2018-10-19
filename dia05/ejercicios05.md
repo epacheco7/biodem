@@ -27,8 +27,10 @@ Nombrar sus variables que digan que contienen!
 - crear un vector de 100 números aleatorios entre 50 y 75
 - crear un vector de 500 pares de bases aleatorios de ARN (a, c, g, u)
   - contar el total para cada base
+  - grafica los resultados con barplot
 - crear una populacion de hembras y machos con un total de 100 (usar rbinom)
   - contar el total para cada uno
+  - grafica los resultados con barplot
 
 ## Buscar medinate la libreria 'rentrez' en NCBI
 

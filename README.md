@@ -1,4 +1,4 @@
-# Curso bioinformáticay genómica
+# Curso bioinformática y genómica
 
 ## Modulo 1
 

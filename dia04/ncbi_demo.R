@@ -18,7 +18,7 @@ r_search
 r_search$id
 
 entrez_fetch("nucleotide", r_search$ids[1], rettype = "gb") %>% 
-  write(file = "dia04/cytb_1.gb")
+  write(file = "dia04/cytb_1.gb", append = FALSE)
 
 entrez_fetch("nucleotide", r_search$ids, rettype = "fasta") %>% 
   write(file = "dia04/cytb.fa")

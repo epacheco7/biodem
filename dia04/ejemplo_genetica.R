@@ -5,6 +5,7 @@
 # y <- mu + alpha * (xm + xf) + delta * (x == 1) + eps
 
 # h2 <- var(G) / var(y)
+library(magrittr)
 
 n <- 10 # genotipos
 p <- 0.5 # probabilidad
@@ -23,7 +24,7 @@ y
 
 h2 <- var(G) / var(y) 
 
-plot(density(y), 
+density(y) %>% plot( 
      main = paste("Un modelo recesivo: \n h^2 = ", round(h2, 3)
                   , sep = ""),
      col = "blue"

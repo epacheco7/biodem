@@ -1,4 +1,4 @@
-n <- 10^5
+n <- 10^5 # 10 ** 5 populación
 modelo <- list(
   mu = 5,
   alpha = 1,
@@ -7,7 +7,7 @@ modelo <- list(
   alelo = "A"
 )
 
-feno1 <- rnorm(n, modelo$mu, modelo$sigma)
+feno1 <- rnorm(n = n, mean = modelo$mu, sd = modelo$sigma)
 feno2 <- rnorm(n, modelo$mu + 2 * modelo$alpha, modelo$sigma)
 a <- rep("a", n)
 A <- rep("A", n)

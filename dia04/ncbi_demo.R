@@ -12,7 +12,8 @@ entrez_dbs()
 # como puedo buscar una base de datos
 entrez_db_searchable(db = "nucleotide")
 
-r_search <- entrez_search(db = "nucleotide", term = "Solanum[ORGN] & CYTB[GEN]")
+r_search <- entrez_search(db = "nucleotide", 
+                          term = "Solanum[ORGN] & CYTB[GEN]")
 r_search
 
 r_search$id

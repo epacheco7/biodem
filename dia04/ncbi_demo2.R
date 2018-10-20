@@ -16,7 +16,10 @@ search_year <- function(year, term) {
 }
 
 year <- 1995:2018
-papers <- sapply(year, search_year, term = "Chenopodium quinoa", USE.NAMES = FALSE)
+papers <- sapply(year, 
+                 FUN = search_year, 
+                 term = "Chenopodium quinoa", 
+                 USE.NAMES = FALSE)
 
 plot(year, papers, type = "b", main = "Publicaciones anuales sobre la quinoa",
      xlab = "año", ylab = "publicaciones")

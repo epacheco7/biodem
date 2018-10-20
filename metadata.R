@@ -1,6 +1,9 @@
 # Summary
 str()
 summary()
+min()
+max()
+var()
 table()
 
 # Tamaño
@@ -48,7 +51,7 @@ attr()
 # Grabar como objeto de R
 
 saveRDS(exprmt, file = "exprmt.rds")
-
+exprmt <- readRDS("exprmt.rds") 
 # declarar unidades de medición
 
 library(units)

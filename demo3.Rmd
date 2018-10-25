@@ -1,0 +1,23 @@
+Modulos de código en R
+=======================
+
+Con R markdown se puede insertar fragmentos de código en R, como así - incluyendo gráficos:
+
+```{r tabla, message=FALSE, echo=FALSE}
+
+knitr::kable(
+ summary(cars)
+)
+```
+
+
+```{r grafico1, fig.width=4, fig.heidth=3, message=FALSE, echo=FALSE}
+# install.packages("tinytex")
+# tinytex::install_tinytex()
+library(ggplot2)
+
+
+qplot(speed, dist, data = cars) +
+  geom_smooth()
+
+```

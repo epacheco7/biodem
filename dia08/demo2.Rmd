@@ -1,0 +1,11 @@
+Capitulo 1
+===========
+
+```{r echo=FALSE}
+cars <- cars[1:25, ]
+
+summary(cars$dist)
+summary(cars$speed)
+```
+
+There were `r nrow(cars)` cars studied.

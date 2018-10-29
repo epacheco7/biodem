@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "R Notebook"
 output: html_notebook
@@ -16,3 +17,16 @@ Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by press
 When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
 
 The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+=======
+Capitulo 1
+===========
+
+```{r echo=FALSE}
+cars <- cars[1:25, ]
+
+summary(cars$dist)
+summary(cars$speed)
+```
+
+There were `r nrow(cars)` cars studied.
+>>>>>>> fe0e508b01c4700febc6ece574b01e70b13a0169

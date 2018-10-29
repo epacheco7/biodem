@@ -5,6 +5,10 @@ navbar:
   left:
     - text: "Home"
       href: index.html
+    - text: "Parte 1"
+      href: 01_CalidadYLimpieza.html
+    - text: "Parte 2"
+      href: 02.html  
     - text: "About"
       href: about.html
     - text: "License"

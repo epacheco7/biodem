@@ -115,6 +115,3 @@ Uso de secuencias de ADN y ARN
 - Evaluación del curso por parte de los participantes mediante web.
 - Cierre del curso y entrega de certificados de participación.
 
-
-
-

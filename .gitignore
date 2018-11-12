@@ -2,4 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+biodem.Rproj
 *.html
+*.pdf
+*.docx

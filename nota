@@ -1,0 +1,21 @@
+Para git:
+
+- Registrados con git local con nombre y email (las mismas tienen concordar con las usadas en github)
+  git config --global user.name "SuNombre"
+  git config --global user.email "su.e@mail.com"
+
+
+Para github:
+  registrarse con email, usuario, y password (y haber confirmado su email con github)
+  
+Para vincular proyecto con github:
+
+Metodo 1:
+
+1. crear proyecto nueveo (con +) con el mismo nombre del proyecto local y bajo su propria cuenta github.
+    en nuestro caso: mapagenetica
+    - sin crear README
+    
+2. Copiar las instrucciones de la pagina creada en la segunda seccion de PUSH existing repository al shell en el menu de git en RStudio
+  git remote add origin https://github.com/rsimon64/mapagenetica.git
+  git push -u origin master

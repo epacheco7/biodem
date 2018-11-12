@@ -17,7 +17,7 @@ mapa_chr <- function(cr, col_cr = "grey", unidad = "cM") {
        lty = 1
        )
   axis(side = 3,
-       at = pretty(rango),
+       at = rango,
        labels = paste0("LG", rango),
        lty = 0
        )
@@ -30,7 +30,7 @@ mapa_chr <- function(cr, col_cr = "grey", unidad = "cM") {
            )
 }
 
-a_th <- list(crm = c(30.4, 19.7, 23.5, 18.6, 27),
+a_th <- list(crm = c(30.4, 19.7, 23.5, 18.6),  # c(30.4, 19.7, 23.5, 18.6, 27),
              col = "grey",
              uni = "Mbp")
 

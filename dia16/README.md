@@ -13,6 +13,7 @@ https://www.surveymonkey.com/r/C2Y8Y8P
   - systemPipeR
   - VariantTools
   - VariantAnnotation
+  - QuasR
 4. Instalar en windows (si aún falta):
   - Putty
   - WinSCP

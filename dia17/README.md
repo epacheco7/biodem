@@ -2,7 +2,8 @@
 
 ## Encuesta
 
-https://www.surveymonkey.com/r/C2Y8Y8P
+  https://www.surveymonkey.com/r/C2Y8Y8P
+
 
 ## Lecciones aprendidas
 
@@ -41,6 +42,13 @@ https://cran.r-project.org/web/views/Phylogenetics.html
 
 https://cran.r-project.org/web/views/Genetics.html
 
+PeerJ
+
+PLOS - ONE, computational biology
+
+Springer: useR (kindle)
+
+
 ### Paquetes
 
 
@@ -60,8 +68,6 @@ https://cran.r-project.org/web/packages/pegas/index.html
 ## Proyecto 1: filtrar, contar, exportar variantes
 
 https://bioconductor.org/packages/release/bioc/vignettes/VariantTools/inst/doc/VariantTools.pdf
-
-
 
 
 
@@ -86,5 +92,15 @@ ReQON
 ### Filtraje y Identificación de Variantes / Generación de archivo VCF
 
 VariantTools
+
+--> VCF
+
+vcfr (CRAN):
+- varias funciones para transformar de formato vcf a otros
+- funciones adicionales de chequeo de calidad (estadisticas)
+
+
+
+
 
 

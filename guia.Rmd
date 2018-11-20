@@ -1,0 +1,34 @@
+---
+title: "PopAna1"
+author: "Reinhard Simon"
+date: "11/16/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Datos crudos (origen)
+
+## Opcional separación de individuos
+
+## Contro. de Calidad con tipo FASTQC para cada pareja de archivo
+
+## Limpieza / filtros - 1
+
+## Control de Calidad con tipo FASTQC de efecto de limpieza
+
+## Alineamiento
+
+## Recomnedado: ajuste de valor de calidad
+
+## Limpieza / filtros - 2
+
+
+
+
+
+
+
+

@@ -172,7 +172,13 @@ cv <- crossVal(maizeC,
 summary(cv)
 ```
 
+## Ejemplo ratón
 
+```{r}
+data(mice)
+plotGenMap(mice,dense=TRUE,nMarker = FALSE, bw=1)
+
+```
 
 
 

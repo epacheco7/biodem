@@ -6,3 +6,6 @@ biodem.Rproj
 *.html
 *.pdf
 *.docx
+population_data.gbs.txt
+*.bam
+*.gz

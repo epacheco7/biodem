@@ -50,7 +50,7 @@ library(edgeR)
 library(Mus.musculus)
 ```
 
-```{r message=FALSE}
+```{r message=FALSE, eval=FALSE}
 url <- "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE63310&format=file"
 utils::download.file(url, destfile="GSE63310_RAW.tar", mode="wb") 
 utils::untar("GSE63310_RAW.tar", exdir = ".")
